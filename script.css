@@ -1,0 +1,36 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+html,body{
+    height: 100%;
+    width: 100%;
+}
+#main{
+    height: 100vh;
+    width: 100vw;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    background-color: dimgray;
+}
+#box{
+    height: 300px;
+    width: 300px;
+    background-color: rgb(105, 39, 52);
+}
+button{
+    padding: 13px 21px;
+    background-color: rgb(145, 53, 220);
+    font-family: gilroy;
+    text-transform: uppercase;
+    border: none;
+    font-size: 18px;
+    border-radius: 40px;
+    color: #fff;
+}
+button:hover{
+    cursor: pointer;
+    background-color: black;
+}
